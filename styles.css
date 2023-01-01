@@ -1,3 +1,18 @@
-/* Your Styles Here */
-body{
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 600px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-image: linear-gradient(to bottom right, #8693ab, #bdd4e7);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
 }
